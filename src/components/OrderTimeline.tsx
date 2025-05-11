@@ -3,10 +3,14 @@ import WalletIcon from "@/assets/WalletIcon";
 import { HorizontalDivider } from "@/components/Dividers";
 import { OrderData } from "@/types/order";
 
-export function OrderTimeline({ timeline }: { timeline: OrderData["timeline"] }) {
+export function OrderTimeline({
+  timeline,
+}: {
+  timeline: OrderData["timeline"];
+}) {
   return (
     <div>
-      <h6 className="font-medium mb-4">Timeline</h6>
+      <h6 className="font-bold mb-4 text-custom-neutral-2">Timeline</h6>
       <HorizontalDivider />
       <div className="space-y-6 relative">
         {timeline.map((item, index) => (
@@ -30,8 +34,12 @@ export function OrderTimeline({ timeline }: { timeline: OrderData["timeline"] })
               )}
             </span>
             <div className="ml-5">
-              <p className="text-custom-neutral-5 font-medium">{item.label}</p>
-              <p className="text-custom-neutral-6">{item.date}</p>
+              <p className="text-custom-neutral-5 font-medium text-xs lg:text-sm">
+                {item.label}
+              </p>
+              <p className="text-custom-neutral-6 font-light text-[10px] lg:text-xs ">
+                {item.date}
+              </p>
             </div>
           </div>
         ))}

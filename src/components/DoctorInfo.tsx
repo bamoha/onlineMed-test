@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { OrderData } from "@/types/order";
+import { HorizontalDivider } from "./Dividers";
 
 export function DoctorInfo({ doctor }: { doctor: OrderData["doctor"] }) {
   return (
@@ -12,9 +13,10 @@ export function DoctorInfo({ doctor }: { doctor: OrderData["doctor"] }) {
         className="rounded-full object-cover"
       />
       <div>
-        <p className="font-medium text-custom-neutral-2">{doctor.name}</p>
+        <p className="font-bold text-lg text-custom-neutral-2">{doctor.name}</p>
         <p className="text-custom-neutral-3">{doctor.specialty}</p>
       </div>
+      <HorizontalDivider />
     </div>
   );
 }

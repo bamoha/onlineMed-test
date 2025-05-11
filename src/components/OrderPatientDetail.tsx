@@ -8,7 +8,7 @@ export function OrderPatientDetail({
 }) {
   return (
     <div>
-      <h6 className="font-medium mb-4 text-custom-neutral-2">Patient Detail</h6>
+      <h6 className="font-bold mb-4 text-custom-neutral-2">Patient Detail</h6>
       <HorizontalDivider />
       <div className="grid grid-cols-2 gap-y-4">
         <div className="text-custom-neutral-6">Full Name</div>

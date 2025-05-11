@@ -10,7 +10,7 @@ import { steps } from "@/types/step";
 export default function OrderPage() {
   return (
     <div>
-      <div className="p-16 bg-secondary-custom-blue lg:bg-white pb-28 lg:pb-6 rounded-b-3xl lg:rounded-none mt-0 lg:mt-12">
+      <div className="p-6 lg:p-16 bg-secondary-custom-blue lg:bg-white pb-28 lg:pb-6 rounded-b-3xl lg:rounded-none mt-0 lg:mt-12">
         <h1 className="text-[32px] font-sans leading-[1.2] font-semibold mb-2 text-custom-neutral-2">
           Your Order Status
         </h1>
@@ -23,7 +23,7 @@ export default function OrderPage() {
         </div>
       </div>
 
-      <div className="mx-16 mt-[-100px] lg:m-16 lg:mt-0">
+      <div className="mx-6 mt-[-100px] lg:m-16 lg:mt-0">
         <div className="rounded-xl border border-gray-200 p-6 space-y-6 text-sm text-custom-neutral-5 bg-white">
           <DoctorInfo doctor={orderData.doctor} />
           <OrderDates

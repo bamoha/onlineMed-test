@@ -1,4 +1,4 @@
-This app is deployed on [Vercel](https://online-med-test.vercel.app/request/order) and the project is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This app is deployed on [https://online-med-test.vercel.app/request/order](https://online-med-test.vercel.app/request/order) using vercel and the project is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 

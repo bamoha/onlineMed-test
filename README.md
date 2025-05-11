@@ -27,4 +27,7 @@ There are a few decisions that were made and should be noted.
 - Both pages are responsive on mobile and tablets
 - There are tests written for some of the components, you can see them in the /components/__tests__ folder
 - You can also run the tests with `npm run test`
+- The fonts were downloaded and imported onto the project
+- The project is using tailwind V4 and there is a theme setup in the global.css file
+- The project is also using the app router of Nextjs
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.

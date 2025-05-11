@@ -32,7 +32,7 @@ export default function RefundPage() {
         </h5>
       </div>
 
-      <div className="mx-6 mt-[-80px] lg:m-16">
+      <div className="mx-6 mt-[-80px] lg:m-16 lg:mt-6">
         <form>
           <ReasonSelect value={reason} onChange={setReason} options={reasons} />
 

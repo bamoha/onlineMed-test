@@ -23,7 +23,7 @@ export default function OrderPage() {
         </div>
       </div>
 
-      <div className="mx-16 mt-[-100px] lg:m-16">
+      <div className="mx-16 mt-[-100px] lg:m-16 lg:mt-0">
         <div className="rounded-xl border border-gray-200 p-6 space-y-6 text-sm text-custom-neutral-5 bg-white">
           <DoctorInfo doctor={orderData.doctor} />
           <OrderDates

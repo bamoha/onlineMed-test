@@ -1,4 +1,4 @@
-This app is deployed on [https://online-med-test.vercel.app/request/order](https://online-med-test.vercel.app/request/order) using vercel and the project is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This app is deployed on [https://online-med-test.vercel.app](https://online-med-test.vercel.app) using vercel and the project is bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 There are a few decisions that were made and should be noted. 
 
-- There are two pages, the first can be found on [/request/order](https://online-med-test.vercel.app/request/order)
+- There are two pages, the first can be found on [/request/order](https://online-med-test.vercel.app/request/order), and its also the default page
 - The second can be found on [/request/refund](https://online-med-test.vercel.app/request/refund)
 - The refund page has a fully functioning file browser and a drag and drop implementation
 - The help Icon on the bottom right has a little animation on hover
